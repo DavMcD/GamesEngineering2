@@ -1,0 +1,4 @@
+﻿  AbstractFactoryApp.cpp
+c:\users\gameuser\documents\games engineering\lab 18.09.17\abstractfactoryapp\abstractfactoryapp\abstractfactoryapp.cpp(64): warning C4018: '<': signed/unsigned mismatch
+  AbstractFactoryApp.vcxproj -> C:\Users\gameuser\Documents\Games Engineering\Lab 18.09.17\AbstractFactoryApp\Debug\AbstractFactoryApp.exe
+  AbstractFactoryApp.vcxproj -> C:\Users\gameuser\Documents\Games Engineering\Lab 18.09.17\AbstractFactoryApp\Debug\AbstractFactoryApp.pdb (Partial PDB)
