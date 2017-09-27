@@ -5,10 +5,15 @@
 class BlueCommand : public Command
 {
 public:
+	BlueCommand::BlueCommand(myWindow window) 
+	{
+		wind = &window;
+	};
 	virtual void execute()
 	{ 
-		theWindow.makeBlue();
-		/*SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);*/ 
+		wind->makeBlue();
 	}
+private:
+	myWindow* wind;
 };
 

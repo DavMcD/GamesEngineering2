@@ -2,26 +2,28 @@
 
 InputHandle::InputHandle()
 {
-	bindCommand();
+	//bindCommand();
 }
 
-void InputHandle::handleInput()
+void InputHandle::handleInput(SDL_Event event)
 {
-	if (SDLK_r)
+	if (event.key.keysym.sym == SDLK_r)
+	{
 		buttonR_->execute();
-	else if (SDLK_b)
+	}
+	if (event.key.keysym.sym == SDLK_b)
 		buttonB_->execute();
-	else if (SDLK_u)
+	/*else if (SDLK_u)
 		buttonU_->execute();
 	else if (SDLK_SPACE)
-		buttonRe_->execute();
+		buttonRe_->execute();*/
 }
 
-void InputHandle::bindCommand()
+void InputHandle::bindCommand(Command* b, Command* r)
 {
-	buttonR_ = new RedCommand;
-	buttonB_ = new BlueCommand;
-	buttonU_ = new RedCommand;
-	buttonRe_ = new RedCommand;
+	buttonR_ = r;
+	buttonB_ = b;
+	//buttonU_ = new RedCommand;
+	//buttonRe_ = new RedCommand;
 
 }

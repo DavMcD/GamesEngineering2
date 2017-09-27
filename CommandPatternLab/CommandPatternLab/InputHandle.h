@@ -7,8 +7,8 @@ class InputHandle
 {
 public:
 	InputHandle();
-	void handleInput();
-	void bindCommand();
+	void handleInput(SDL_Event event);
+	void bindCommand(Command* b, Command* r);
 	// Methods to bind commands...
 
 private:

@@ -1,6 +1,10 @@
-﻿  InputHandle.cpp
+﻿  myWindow.cpp
+  RedCommand.cpp
+  InputHandle.cpp
+  Command.cpp
   Generating Code...
   Skipping... (no relevant changes detected)
   main.cpp
+     Creating library C:\Users\gameuser\Documents\Visual Studio 2017\Projects\CommandPatternLab\x64\Debug\CommandPatternLab.lib and object C:\Users\gameuser\Documents\Visual Studio 2017\Projects\CommandPatternLab\x64\Debug\CommandPatternLab.exp
   CommandPatternLab.vcxproj -> C:\Users\gameuser\Documents\Visual Studio 2017\Projects\CommandPatternLab\x64\Debug\CommandPatternLab.exe
   CommandPatternLab.vcxproj -> C:\Users\gameuser\Documents\Visual Studio 2017\Projects\CommandPatternLab\x64\Debug\CommandPatternLab.pdb (Partial PDB)

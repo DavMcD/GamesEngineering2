@@ -6,5 +6,4 @@ public:
 	virtual ~Command() {}
 	virtual void execute() = 0;
 protected:
-	myWindow theWindow;
 };
